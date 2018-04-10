@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user navigate to LinkedIn.com (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter username as &quot;keerthyandy@gmail.com&quot; and password &quot;keerthi23&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on login button (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">login should be successful (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user navigate to LinkedIn.com (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enter username as &quot;keerthiandy@gmail.com&quot; and password &quot;keerthi23&quot; (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on login button (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">login should not be successful (UNDEFINED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="489" started-at="2018-03-29T01:11:30Z" finished-at="2018-03-29T01:11:31Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner@1794d431]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="489" started-at="2018-03-29T01:11:30Z" finished-at="2018-03-29T01:11:31Z">
+      <class name="com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner@1794d431]" name="setUpClass" is-config="true" duration-ms="368" started-at="2018-03-28T18:11:30Z" finished-at="2018-03-28T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner@1794d431]" name="runScenario" duration-ms="23" started-at="2018-03-28T18:11:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-28T18:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into LinkedIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user navigate to LinkedIn.com (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter username as &quot;keerthyandy@gmail.com&quot; and password &quot;keerthi23&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on login button (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">login should be successful (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner@1794d431]" name="runScenario" duration-ms="9" started-at="2018-03-28T18:11:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-28T18:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with Invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into LinkedIn"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user navigate to LinkedIn.com (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enter username as &quot;keerthiandy@gmail.com&quot; and password &quot;keerthi23&quot; (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on login button (UNDEFINED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">login should not be successful (UNDEFINED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner@1794d431]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2018-03-28T18:11:31Z" finished-at="2018-03-28T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.BDD_Framework_LinkedIn.LinkedInFramework.runner.LinkedInSignInrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
